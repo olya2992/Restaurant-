@@ -1,11 +1,10 @@
 import Filter from "./Filter"
 const AllCategories = () =>{
     return(
-        <div >
+        <div className="app" >
            <h1>What kind of food do you like?</h1>
 
-           {['SEAFOOD', 'ITALIAN', 'APPETTIZERS', 'ALL', 'SALADS'].
-           map(category => <Filter category ={category}/> 
+           {['SEAFOOD', 'ITALIAN', 'APPETTIZERS','SALADS', 'ALL', ].map(category => <Filter category ={category}/> 
            )}
           
         </div>
