@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useDispatch } from "react-redux";
 import { addItemToCart } from "../../redux/cartSlice";
-import ChangeQuanity from "./Cart/ChangeQuantity"
+import ChangeQuanity from ".Components/Cart/ChangeQuantity"
 
 
 const Dish =({dish})=>{

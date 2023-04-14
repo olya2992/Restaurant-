@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Dishes from './Components/DishesComponents/Dishes';
-import AllCategories from './Components/DishesComponents/Filter/AllCategories';
-import Cart from './Components/DishesComponents/Cart/Cart';
+import AllCategories from './Components/Filter/AllCategories';
+import Cart from './Components/Cart/Cart';
 
 
 function App() {
