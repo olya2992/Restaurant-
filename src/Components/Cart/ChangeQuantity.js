@@ -1,4 +1,4 @@
-const ChangeQuanity =  ({quantity, setQuantity}) => {
+const ChangeQuantity =  ({quantity, setQuantity}) => {
     const addQuantity = () => {
     const newQuantity = quantity +1;
     setQuantity(newQuantity)}
@@ -13,4 +13,4 @@ const ChangeQuanity =  ({quantity, setQuantity}) => {
         <button onClick={removeQuantity} >-</button>
     </div>)
 }
-export default ChangeQuanity;
+export default ChangeQuantity

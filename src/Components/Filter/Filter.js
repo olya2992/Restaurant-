@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
-import { getSelectedCategory } from "../../../redux/dishesSlice";
-import {filterCategory } from "../../../redux/dishesSlice";
+import { getSelectedCategory, filterCategory } from "../../redux/dishesSlice";
+
 const Filter = ({category}) =>{
     const dispatch = useDispatch()
     const selectedCategory =useSelector(getSelectedCategory)

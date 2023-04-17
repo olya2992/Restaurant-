@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useDispatch } from "react-redux";
 import { addItemToCart } from "../../redux/cartSlice";
-import ChangeQuanity from ".Components/Cart/ChangeQuantity"
+import ChangeQuantity from "../Cart/ChangeQuantity"
 
 
 const Dish =({dish})=>{
@@ -12,7 +12,7 @@ const Dish =({dish})=>{
             <img src={`${dish.img}.jpg`}/>
             <h2>{dish.name}</h2>
             <p>${dish.price}</p>
-            <ChangeQuanity quantity ={quantity} setQuantity={setQuantity}/>
+            <ChangeQuantity quantity ={quantity} setQuantity={setQuantity}/>
             <button onClick={() => {dispatch(addItemToCart({dish, quantity}))
         }}>Add to cart</button>
         </div>
